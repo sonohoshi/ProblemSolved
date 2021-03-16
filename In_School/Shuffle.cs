@@ -41,7 +41,7 @@ namespace CSConsole
                     }
                     else
                     {
-                        student[i, j] = shuffled[(j - 16) * (i + 1)];
+                        student[i, j] = list[j - 16 + 4 * i];
                     }
 
                     for (int k = 0; k < i; k++)
